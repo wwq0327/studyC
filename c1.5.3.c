@@ -1,3 +1,4 @@
+/* 统计行数 */
 #include <stdio.h>
 
 main()
