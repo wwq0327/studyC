@@ -2,6 +2,7 @@
 
 #define IN   1
 #define OUT  0
+int test();
 
 main()
 {
@@ -20,4 +21,9 @@ main()
         }
     }
     printf("%d %d %d\n", nl, nw, nc);
+}
+
+int test()
+{
+	printf("Hello, world!\n");
 }
