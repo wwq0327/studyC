@@ -54,6 +54,7 @@ int getint(int *pn)
 	*pn *= sign;
 	if (c != EOF)
 		ungetch(c);
+
 	return c;
 }
 		       
