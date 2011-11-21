@@ -11,9 +11,11 @@ int strlen(char *);
 int main()
 {
 	char array[100];
+	char *s = "hello, world";
 
 	printf("%d\n", strlen("hello, world"));
 	printf("%d\n", strlen(array));
+	printf("%d\n", strlen(s));
 
 
 	return 0;
