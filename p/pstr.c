@@ -9,20 +9,21 @@
 
 void strcpy(char *s, char *t)
 {
-	int i;
+	/* int i; */
 
-	i = 0;
-	while ((s[i] = t[i]) != '\0')
-	       i++;
+	/* i = 0; */
+	/* while ((s[i] = t[i]) != '\0') */
+	/*        i++; */
+	while ((*s++ = *t++) != '\0')
+		;
 }
 
 int main()
 {
-	char *pt;
-        pt = "now is the time\n";
+	char *pt = "now is the time\n";
 	char *ps;
 	strcpy(pt, ps);
-	printf("%c", ps);
+	printf("%c", *ps);
 
 	return 0;
 
