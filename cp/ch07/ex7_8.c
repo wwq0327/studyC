@@ -1,4 +1,4 @@
-/* ex7_8.c
+/* ex7_8.c - 此代码还有问题
  *
  * date: 2011-11-28
  * author: wwq0327 <wwq0327@gmail.com>
