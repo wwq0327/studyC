@@ -9,16 +9,17 @@
 int main()
 {
 	char start = 'A';
-	char end = 'E';
-	int i, n;
-
+	char end = 'G';
+	int i, n, f;
+	for ( f = start; f <= end; f++)
+	{ 
 	for (i = 0; i <= end-start; i++)
-	{
 		printf("%c", start+i);
-		for (n = 0; n <= i; n++)
-			printf("%c", end - n);
-		printf("\n");
-	}
+
+	for (n = end; n > start; n--)
+		printf("%c", n-1);
+
 	printf("\n");
-	return 0;
+	}
+	return 0;t
 }
